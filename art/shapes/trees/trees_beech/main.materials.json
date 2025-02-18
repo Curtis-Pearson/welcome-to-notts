@@ -1,0 +1,118 @@
+{
+  "beech_blocker" : {
+    "name" : "beech_blocker",
+    "mapTo" : "beech_blocker",
+    "class" : "Material",
+    "persistentId" : "686852d1-bdff-4086-855b-682867a406e0",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_blocker_d.dds",
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_blocker_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_blocker_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 50,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "groundType" : "WOOD",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation"
+  },
+  "beech_branch_01" : {
+    "name" : "beech_branch_01",
+    "mapTo" : "beech_branch_01",
+    "class" : "Material",
+    "persistentId" : "04850e85-8d18-4173-a93b-076f274aec7a",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_branch_01_d.dds",
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_branch_01_n.dds",
+        "specular" : [ 0.992156982421875, 0.992156982421875, 0.992156982421875, 1 ],
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/beech_branch_01_s.dds",
+        "specularPower" : 36,
+        "subSurfaceColor" : [ 0.9960780143737793, 0.9254900217056274, 0.007843139581382275, 1 ],
+        "subSurfaceRolloff" : 1.049999952316284,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 75,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "groundType" : "WOOD",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation"
+  },
+  "beech_leaves" : {
+    "name" : "beech_leaves",
+    "mapTo" : "beech_leaves",
+    "class" : "material",
+    "persistentId" : "e30d3c35-800f-4509-ac97-51eb4efe7194",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/vegetation_beech_d.dds",
+        "diffuseColor" : [ 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 1 ],
+        "normalMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/vegetation_beech_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/vegetation_beech_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 50,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "groundType" : "LEAVES_THIN",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "materialTag4" : "east_coast_usa"
+  },
+  "beech_trunk" : {
+    "name" : "beech_trunk",
+    "mapTo" : "beech_trunk",
+    "class" : "Material",
+    "persistentId" : "0af016fd-dc8c-45eb-80b0-edd232cad636",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/vegetation_beech_bark_d.dds",
+        "detailScale" : [ 1, 1 ],
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_beech/vegetation_beech_bark_n.dds",
+        "pixelSpecular" : true,
+        "specular" : [ 0.1490196138620377, 0.1490196138620377, 0.1490196138620377, 1 ],
+        "specularPower" : 1
+      },
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/trees_beech/Moss_03_d.dds",
+        "diffuseColor" : [ 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 1 ]
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 10,
+    "alphaTest" : true,
+    "groundType" : "WOOD",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "specularStrength0" : "0.392157",
+    "translucentBlendOp" : "None"
+  }
+}

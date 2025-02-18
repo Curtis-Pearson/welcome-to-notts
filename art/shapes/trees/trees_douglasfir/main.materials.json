@@ -1,0 +1,131 @@
+{
+  "fir_bark" : {
+    "name" : "fir_bark",
+    "mapTo" : "fir_bark",
+    "class" : "Material",
+    "persistentId" : "1abfef0d-b4e7-4116-b050-5a140fd64716",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_bark_d.dds",
+        "detailScale" : [ 0.1000000014901161, 0.1000000014901161 ],
+        "diffuseColor" : [ 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_bark_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_bark_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation" : "NATURE",
+    "groundType" : "WOOD",
+    "materialTag0" : "vegetation",
+    "materialTag1" : "beamng",
+    "materialTag2" : "Natural",
+    "specularStrength0" : "0.294118"
+  },
+  "fir_leaves" : {
+    "name" : "fir_leaves",
+    "mapTo" : "fir_leaves",
+    "class" : "Material",
+    "persistentId" : "aaf2fde2-8a41-473b-9d09-836efab2bc8c",
+    "groundType" : "LEAVES_THIN",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_d.dds",
+        "detailNormalMapStrength" : 5,
+        "detailScale" : [ 1, 1 ],
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_n.dds",
+        "specular" : [ 0.992156982421875, 0.992156982421875, 0.992156982421875, 1 ],
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 0.9960780143737793, 0.9254900217056274, 0.007843139581382275, 1 ],
+        "subSurfaceRolloff" : 1.049999952316284,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "annotation" : "NATURE",
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "specularStrength0" : "0.294118"
+  },
+  "fir_leaves_02" : {
+    "name" : "fir_leaves_02",
+    "mapTo" : "fir_leaves_02",
+    "class" : "Material",
+    "persistentId" : "62dcd932-2170-4946-b5b7-ebf65e8f74ca",
+    "groundType" : "LEAVES_THIN",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_02_d.dds",
+        "detailNormalMapStrength" : 5,
+        "detailScale" : [ 1, 1 ],
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_n.dds",
+        "specular" : [ 0.992156982421875, 0.992156982421875, 0.992156982421875, 1 ],
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 0.9960780143737793, 0.9254900217056274, 0.007843139581382275, 1 ],
+        "subSurfaceRolloff" : 1.049999952316284,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "annotation" : "NATURE",
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "specularStrength0" : "0.294118"
+  },
+  "fir_leaves_dead" : {
+    "name" : "fir_leaves_dead",
+    "mapTo" : "fir_leaves_dead",
+    "class" : "Material",
+    "persistentId" : "c33cdda1-8084-4884-adef-f1607ac94fa0",
+    "groundType" : "LEAVES_THIN",
+    "Stages" : [
+      {
+        "colorMap" : "/levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_dead_d.dds",
+        "detailNormalMapStrength" : 5,
+        "detailScale" : [ 1, 1 ],
+        "diffuseColor" : [ 0.9960784912109375, 0.9960784912109375, 0.9960784912109375, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_dead_n.dds",
+        "specular" : [ 0.992156982421875, 0.992156982421875, 0.992156982421875, 1 ],
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/trees_douglasfir/fir_leaves_dead_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 0.9960780143737793, 0.9254900217056274, 0.007843139581382275, 1 ],
+        "subSurfaceRolloff" : 1.049999952316284,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 45,
+    "alphaTest" : true,
+    "annotation" : "NATURE",
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "specularStrength0" : "0.294118"
+  }
+}

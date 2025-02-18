@@ -1,0 +1,53 @@
+{
+  "eca_rocks" : {
+    "name" : "eca_rocks",
+    "mapTo" : "eca_rocks",
+    "class" : "Material",
+    "persistentId" : "7ed6ec7d-833f-44d7-87f4-b102ed9777d0",
+    "groundType" : "ROCK",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/rocks/eca_rocks_d.dds",
+        "detailNormalMap" : "levels/welcome_to_notts/art/shapes/rocks/italy_rocksface_detail_n.dds",
+        "detailNormalMapStrength" : 0.300000011920929,
+        "detailScale" : [ 8, 8 ],
+        "diffuseColor" : [ 1, 1, 0.9990000128746033, 1 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/rocks/eca_rocks_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/rocks/eca_rocks_s.dds",
+        "specularPower" : 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided" : true,
+    "groundType" : "ROCK",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "translucentBlendOp" : "None"
+  },
+  "rock_01_a" : {
+    "name" : "rock_01_a",
+    "mapTo" : "rocks_01_a",
+    "class" : "Material",
+    "persistentId" : "5fe9b75a-99bf-4abf-8eaf-94d425eead15",
+    "groundType" : "ROCK",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/rocks/moss_rocks_01_a_d.dds",
+        "normalMap" : "levels/welcome_to_notts/art/shapes/rocks/moss_rocks_01_a_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/rocks/moss_rocks_01_a_s.dds",
+        "specularPower" : 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation" : "ROCK",
+    "doubleSided" : true,
+    "groundType" : "ROCK",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "translucentBlendOp" : "None"
+  }
+}

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.63.0 r46461:46487M</authoring_tool>
+    </contributor>
+    <created>2012-11-25T10:13:24</created>
+    <modified>2012-11-25T10:13:24</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="GridMat-effect">
+      <profile_COMMON>
+        <newparam sid="grid_10_diff_dds_001-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="grid_10_diff_dds_001-sampler">
+          <sampler2D>
+            <source>grid_10_diff_dds_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="grid_10_diff_dds_001-sampler" />
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    </library_effects>
+  <library_materials>
+    <material id="GridMat-material" name="GridMat">
+      <instance_effect url="#GridMat-effect" />
+    </material>
+    </library_materials>
+  <library_geometries>
+    <geometry id="Untitled_001-mesh" name="Untitled.001">
+      <mesh>
+        <source id="Untitled_001-mesh-positions">
+          <float_array count="24" id="Untitled_001-mesh-positions-array">-3.092402 -3.779648 -8.011638 -3.092402 3.779648 -8.011638 3.092402 3.779648 -8.011638 3.092402 -3.779648 -8.011638 -3.092402 -3.779648 8.011638 -3.092402 3.779648 8.011638 3.092402 3.779648 8.011638 3.092402 -3.779648 8.011638</float_array>
+          <technique_common>
+            <accessor count="8" source="#Untitled_001-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Untitled_001-mesh-normals">
+          <float_array count="0" id="Untitled_001-mesh-normals-array" />
+          <technique_common>
+            <accessor count="0" source="#Untitled_001-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Untitled_001-mesh-vertices">
+          <input semantic="POSITION" source="#Untitled_001-mesh-positions" />
+        </vertices>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="ind_bld_c300_001-mesh" name="ind_bld_c300.001">
+      <mesh>
+        <source id="ind_bld_c300_001-mesh-positions">
+          <float_array count="24" id="ind_bld_c300_001-mesh-positions-array">-0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 0.5 -0.5 0 -0.5 -0.5 1 -0.5 0.5 1 0.5 0.5 1 0.5 -0.5 1</float_array>
+          <technique_common>
+            <accessor count="8" source="#ind_bld_c300_001-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ind_bld_c300_001-mesh-normals">
+          <float_array count="18" id="ind_bld_c300_001-mesh-normals-array">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor count="6" source="#ind_bld_c300_001-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ind_bld_c300_001-mesh-map-0">
+          <float_array count="48" id="ind_bld_c300_001-mesh-map-0-array">1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0.9999998 0 0.9999998 1 0 1 1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common>
+            <accessor count="24" source="#ind_bld_c300_001-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ind_bld_c300_001-mesh-vertices">
+          <input semantic="POSITION" source="#ind_bld_c300_001-mesh-positions" />
+        </vertices>
+        <polylist count="6" material="GridMat">
+          <input offset="0" semantic="VERTEX" source="#ind_bld_c300_001-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#ind_bld_c300_001-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#ind_bld_c300_001-mesh-map-0" />
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 0 1 4 0 2 5 0 3 5 1 4 6 1 5 2 1 6 1 1 7 6 2 8 7 2 9 3 2 10 2 2 11 0 3 12 3 3 13 7 3 14 4 3 15 0 4 16 1 4 17 2 4 18 3 4 19 7 5 20 6 5 21 5 5 22 4 5 23</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Colmesh-1-mesh" name="Colmesh-1">
+      <mesh>
+        <source id="Colmesh-1-mesh-positions">
+          <float_array count="24" id="Colmesh-1-mesh-positions-array">-0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 0.5 -0.5 0 -0.5 -0.5 1 -0.5 0.5 1 0.5 0.5 1 0.5 -0.5 1</float_array>
+          <technique_common>
+            <accessor count="8" source="#Colmesh-1-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Colmesh-1-mesh-normals">
+          <float_array count="18" id="Colmesh-1-mesh-normals-array">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor count="6" source="#Colmesh-1-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Colmesh-1-mesh-map-0">
+          <float_array count="48" id="Colmesh-1-mesh-map-0-array">1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0.9999998 0 0.9999998 1 0 1 1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common>
+            <accessor count="24" source="#Colmesh-1-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Colmesh-1-mesh-vertices">
+          <input semantic="POSITION" source="#Colmesh-1-mesh-positions" />
+        </vertices>
+        <polylist count="6" material="ColorEffectR27G177B88-material">
+          <input offset="0" semantic="VERTEX" source="#Colmesh-1-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Colmesh-1-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Colmesh-1-mesh-map-0" />
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 0 1 4 0 2 5 0 3 5 1 4 6 1 5 2 1 6 1 1 7 6 2 8 7 2 9 3 2 10 2 2 11 0 3 12 3 3 13 7 3 14 4 3 15 0 4 16 1 4 17 2 4 18 3 4 19 7 5 20 6 5 21 5 5 22 4 5 23</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="bounds" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="Untitled" type="NODE">
+          <translate sid="location">0 0 0.4946511</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">0.1679822 0.1381085 0.06467333</scale>
+          <instance_geometry url="#Untitled_001-mesh">
+            <bind_material>
+              <technique_common>
+                </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <node id="base00" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="collision-1" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="detail80" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="start01" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+          <node id="ind_bld_c70" type="NODE">
+            <translate sid="location">0 0 0</translate>
+            <rotate sid="rotationZ">0 0 1 0</rotate>
+            <rotate sid="rotationY">0 1 0 0</rotate>
+            <rotate sid="rotationX">1 0 0 0</rotate>
+            <scale sid="scale">1 1 1</scale>
+            <instance_geometry url="#ind_bld_c300_001-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="GridMat" target="#GridMat-material">
+                    <bind_vertex_input input_semantic="TEXCOORD" input_set="0" semantic="UVMap" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Colmesh-1" type="NODE">
+            <translate sid="location">0 0 0</translate>
+            <rotate sid="rotationZ">0 0 1 0</rotate>
+            <rotate sid="rotationY">0 1 0 0</rotate>
+            <rotate sid="rotationX">1 0 0 0</rotate>
+            <scale sid="scale">1 1 1</scale>
+            <instance_geometry url="#Colmesh-1-mesh">
+              <bind_material>
+                <technique_common>
+                  </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="detail300" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="detail50" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

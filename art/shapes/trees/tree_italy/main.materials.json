@@ -1,0 +1,28 @@
+{
+  "tall_plant_vegetation" : {
+    "name" : "tall_plant_vegetation",
+    "mapTo" : "tall_plant_vegetation",
+    "class" : "Material",
+    "persistentId" : "370758b4-7546-4cf7-bc07-deeecb6ea427",
+    "groundType" : "LEAVES_THIN",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/tree_italy/tall_plant_d.dds",
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/tree_italy/tall_plant_n.dds",
+        "specular" : [ 0.9882349967956543, 0.9882349967956543, 0.9882349967956543, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 84,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "specularStrength0" : "0.784314"
+  }
+}

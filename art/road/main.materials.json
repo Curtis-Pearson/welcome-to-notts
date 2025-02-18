@@ -1,0 +1,101 @@
+{
+  "BNG_Road_Dirt" : {
+    "name" : "BNG_Road_Dirt",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "0311b431-2c45-4516-9d87-e7acabed631a",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/road/road-01_d.dds",
+        "diffuseColor" : [
+          0.8509799838066101,
+          0.8509799838066101,
+          0.8509799838066101,
+          0.9340000152587891
+        ],
+        "normalMap" : "levels/welcome_to_notts/art/road/road-01_n.dds",
+        "pixelSpecular" : true,
+        "scrollSpeed" : 4.118000030517578,
+        "specular" : [ 0.003921569790691137, 0.003921569790691137, 0.003921569790691137, 1 ],
+        "specularMap" : "levels/welcome_to_notts/art/road/road-01_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0" : "RoadAndPath",
+    "materialTag1" : "beamng",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "specularStrength0" : "0.196078",
+    "translucent" : true,
+    "translucentZWrite" : true
+  },
+  "DirtRoad_variation_01" : {
+    "name" : "DirtRoad_variation_01",
+    "mapTo" : "DirtRoad_variation_01",
+    "class" : "Material",
+    "persistentId" : "1f51dd1d-cdb9-49ee-a8dc-ec263e57c456",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/road/DirtRoad_variation_01_d.dds",
+        "diffuseColor" : [
+          0.5176470279693604,
+          0.4392159879207611,
+          0.2941179871559143,
+          0.7519999742507935
+        ],
+        "pixelSpecular" : true,
+        "specularPower" : 11,
+        "useAnisotropic" : true
+      },
+      {
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 255,
+    "castShadows" : false,
+    "materialTag0" : "RoadAndPath",
+    "materialTag1" : "beamng",
+    "materialTag2" : "Natural",
+    "materialTag3" : "vegetation",
+    "specularStrength0" : "0.196078",
+    "translucent" : true,
+    "translucentZWrite" : true
+  },
+  "dirt_road_tread_ruts" : {
+    "name" : "dirt_road_tread_ruts",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "131ee0c4-66ab-4c8c-bd4a-93614c9d005b",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/road/dirt_road_tread_ruts_d.dds",
+        "diffuseColor" : [
+          0.9330000281333923,
+          0.8199999928474426,
+          0.7289999723434448,
+          1.207000017166138
+        ],
+        "normalMap" : "levels/welcome_to_notts/art/road/dirt_road_tread_ruts_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/road/dirt_road_tread_ruts_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 134,
+    "materialTag0" : "beamng",
+    "materialTag1" : "RoadAndPath",
+    "specularStrength0" : "0.0980392",
+    "translucent" : true,
+    "translucentZWrite" : true
+  }
+}

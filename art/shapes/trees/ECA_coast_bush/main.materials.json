@@ -1,0 +1,199 @@
+{
+  "cork_oak" : {
+    "name" : "cork_oak",
+    "mapTo" : "cork_oak",
+    "class" : "Material",
+    "persistentId" : "3d343fb9-d454-483d-83b1-7836ba6989ad",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_d.dds",
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 68,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  },
+  "cork_oak_trunk" : {
+    "name" : "cork_oak_trunk",
+    "mapTo" : "cork_oak_trunk",
+    "class" : "Material",
+    "persistentId" : "d185c77f-d4bb-4937-b7a5-ae16a0217b82",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_d.dds",
+        "detailNormalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_n.dds",
+        "detailScale" : [ 0.2000000029802322, 0.2000000029802322 ],
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  },
+  "generibush_leaves" : {
+    "name" : "generibush_leaves",
+    "mapTo" : "generibush_leaves",
+    "class" : "Material",
+    "persistentId" : "d61e7d20-6cf2-468e-96e9-95e3ebf04b49",
+    "groundType" : "GRASS",
+    "Stages" : [
+      {
+        "colorMap" : "generibush_d.dds",
+        "normalMap" : "generibush_n.dds",
+        "specularMap" : "generibush_s.dds",
+        "specularPower" : 21,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 84,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  },
+  "holm_oak_branches" : {
+    "name" : "holm_oak_branches",
+    "mapTo" : "holm_oak_branches",
+    "class" : "Material",
+    "persistentId" : "f5c74b9f-901e-4c53-9d56-17c0c05f4126",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/holm_oak_branches_d.dds",
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/holm_oak_branches_n.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "specularStrength0" : "0.490196"
+  },
+  "holm_oak_trunk" : {
+    "name" : "holm_oak_trunk",
+    "mapTo" : "holm_oak_trunk",
+    "class" : "Material",
+    "persistentId" : "5beea73f-0bbe-4142-9211-840c569e4302",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/tree_trunk_scan_d.dds",
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/tree_trunk_scan_n.dds",
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/tree_trunk_scan_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  },
+  "scots_pine" : {
+    "name" : "scots_pine",
+    "mapTo" : "scots_pine",
+    "class" : "Material",
+    "persistentId" : "e8f32c57-88d9-4695-808b-6282d597aade",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/scots_pine_d.dds",
+        "minnaertConstant" : -2,
+        "normalMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/scots_pine_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/scots_pine_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 1, 0.8235290050506592, 0, 1 ],
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 93,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+    "materialTag3" : "Natural"
+  },
+  "scots_pine_branches" : {
+    "name" : "scots_pine_branches",
+    "mapTo" : "scots_pine_branches",
+    "class" : "Material",
+    "persistentId" : "132fad37-3917-4fd8-afda-5da8d13e4497",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "levels/welcome_to_notts/art/shapes/trees/ECA_coast_bush/scots_pine_branches_d.dds",
+        "diffuseColor" : [ 0.9960780143737793, 0.9960780143737793, 0.9960780143737793, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  },
+  "scots_pine_trunk" : {
+    "name" : "scots_pine_trunk",
+    "mapTo" : "scots_pine_trunk",
+    "class" : "Material",
+    "persistentId" : "69c92e20-11c6-4cd9-95ab-db7b46525f14",
+    "groundType" : "WOOD",
+    "Stages" : [
+      {
+        "colorMap" : "scots_pine_bark_d.dds",
+        "normalMap" : "scots_pine_bark_n.dds",
+        "specularMap" : "scots_pine_bark_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural"
+  }
+}

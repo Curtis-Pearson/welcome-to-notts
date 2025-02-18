@@ -1,0 +1,14 @@
+{
+  "binaryFormat": "version(char), size(unsigned int), heightMap(heightMapSize * heightMapItemSize), layerMap(layerMapSize * layerMapItemSize), layerTextureMap(layerMapSize * layerMapItemSize), materialNames",
+  "datafile": "/levels/welcome_to_notts/theTerrain.ter",
+  "heightMapItemSize": 2,
+  "heightMapSize": 16777216,
+  "heightmapImage": "/levels/welcome_to_notts/theTerrain.terrainheightmap.png",
+  "layerMapItemSize": 1,
+  "layerMapSize": 16777216,
+  "materials": [
+    "terrain_texture"
+  ],
+  "size": 4096,
+  "version": 9
+}
